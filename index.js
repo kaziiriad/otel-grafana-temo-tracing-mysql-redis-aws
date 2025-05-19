@@ -82,7 +82,7 @@ const securityGroup = new aws.ec2.SecurityGroup("web-sg", {
 
 // Create a key pair
 const keyPair = new aws.ec2.KeyPair("my-key-pair", {
-    publicKey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrBtUDgbLUtQzrFcRw9tLx0z9I6mI2VQdjPtMQ/qcupPE20DiXtWx57jkK3p0CayZk/+5e0nZJwjXCQkls0mSpCk0YUINQx22Ix09dPcuQc7dBZS3yZPFQAlZkjyVijT2cToaqwZyZzE2M5vD04gdGXBzpU2XZ4s/ifLTGP/VWX/2ZYq+yDaWw1TOe8vzFQ7LoK9qY28x6woZ+9VmDp0bBaeMIZ5cEUdf76fSusvsnwbJ4sVAmxibRfYOsX5UwQo9nSUq82PvqkjYMpiWowMgQwYyLseXDrQIizrBtUFpgnl3Vo2+wWItQr6vNnVQSGEw+Tb9WJYfTCPE18hQr1NMF minha@myLegion", // Replace with your public key
+    publicKey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCt38K513EpIkSFkgcawcQ07k+x+H6nhObtRfT+/yTGOZp3ZTS2FcLMO3oz+yVGXUPzJIB50+Oz1OBD6FRSRyHi125x182qkR0sjTwJQAy92I7qUO+xAxuLh8vvbXxP/N5e/S4SG9nl6HzMhZmQ1950VCj0waykxbSVwouYfjOKUbLEO0zdrXF1OJFJ8eHyAiuOMvBLK3AhbOONnXPLxzZdjS0r/BX8EiRMCptlC30pcfdnX9g0cBwZSQAEOMVCkOaiqTQ0h4ZZJ1eReY1iVHj3ZAPf4bf/r0FLRMQsPmJrZhAd/NQoUZ4bRjUfPvxuxPcYG0uGGHSsH/vXYjDnSP8Z root@e07dd0a1035ec23a", // Replace with your public key
 });
 
 // Create two EC2 instances
